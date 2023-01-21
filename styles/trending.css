@@ -1,0 +1,113 @@
+@font-face {
+    font-family: NetflixSans;
+    src: url("./fonts/NetflixSansRegular.ttf")
+    format("truetype");         
+}
+
+@font-face {
+    font-family: NetflixBold;
+    src: url("./fonts/NetflixSansBold.ttf")
+    format("truetype");         
+}
+
+body {
+    margin: 0px 0px 200px 0px;
+    font-family: NetflixSans;
+    background: rgb(20, 20, 20);
+}
+
+h1, h2 {
+    color: white;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    background: rgb(20, 20, 20);
+    padding: 20px 50px;
+    display: flex;
+    z-index: 100;
+}
+.header img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.header ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #e5e5e5;
+    cursor: pointer;
+}
+
+.header ul li:hover {
+    color: #fafafa;
+}
+
+.header ul li:first-child {
+    color: white;
+}
+
+.trending-banner {
+    width: 30%;
+    padding-top: 150px;
+    margin: 0px auto;
+}
+
+#trending-container {
+    width: 60%;
+    margin: 75px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#trending-container > div {
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+#trending-container > div h2 {
+    color: rgb(20, 20, 20);
+    margin: 5px 0px;
+    white-space: nowrap; 
+    width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+#trending-container > div h5 {
+    margin: 5px 0px;
+    text-transform: uppercase;
+    color: #E50914;
+}
+
+#trending-container > div h6 {
+    margin: 5px 0px;
+}
+
+#trending-container > div > div {
+    padding: 10px 20px;
+}
+
+#trending-container > div img {
+    width: 100%;
+    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#trending-container > div > div > p {
+    white-space: nowrap; 
+    width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
