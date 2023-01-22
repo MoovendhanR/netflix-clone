@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">    
+    <link type="text/css" rel="stylesheet" href="https://assets.nflxext.com/web/ffe/wp/less/pages/akiraClient.da117686b385baecb300.css" data-uia="botLink">
+    <link type="text/css" rel="stylesheet" href="https://assets.nflxext.com/web/ffe/wp/less/core/error-page.b122c37502204303115a.css" data-uia="botLink">
+    <link type="text/css" rel="stylesheet" data-uia="botLink">
     <title>NETFLIX-CLONE</title>
     <link rel="stylesheet" href="./styles/index.css">
     
@@ -84,9 +88,17 @@
             </div>
         </div>
     </div>
-   
+    <div class="container" id="search-container">
+        <h1>Search Netflix</h1>
+        <div>
+            <input type="text" id="search-box" placeholder="Enter Movie Title to Search & Press Enter">
+            <button id="search-button">Search</button>
+        </div>
+        <p id="search-status"></p>
+        <div id="search-results"></div>
+    </div>
+    <div id="movie-container"></div>
 </body>
-<script>
-    
+<script src="./scripts/index.js">
 </script>
 </html>
