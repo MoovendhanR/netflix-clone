@@ -9,10 +9,8 @@ check the mini netflix-clone [here](https://netflix-clone-virid-two.vercel.app/)
 <br/>
 2.Top 20 Trending Movie will be Displayed.
 <br/>
-
 3.Search movies by name which are loaded dynamically.
 <br/>
-
 4.Browse Top 10 movies of all time.
 
 #Some of Screenshots
