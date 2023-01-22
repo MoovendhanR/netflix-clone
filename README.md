@@ -4,6 +4,7 @@
 check the mini netflix-clone [here](https://netflix-clone-virid-two.vercel.app/)
 
 #Features
+<br/>
 1.Checkout Landing page of Netflix.
 <br/>
 2.Top 20 Trending Movie will be Displayed.
