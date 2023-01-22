@@ -152,6 +152,7 @@ h1, h2 {
 
 #search-box {
     background: white;
+        color:black;
     border: none;
     outline: none;
     padding: 10px 15px;
