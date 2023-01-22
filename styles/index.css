@@ -126,3 +126,21 @@ h1, h2 {
     color: white;
     font-size: 18px;
 }
+
+.container {
+    padding: 10px 50px;
+}
+
+.tiles-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tiles {
+    width: 19%;
+}
+
+.tiles img {
+    width: 100%;
+    border-radius: 5px;
+}
