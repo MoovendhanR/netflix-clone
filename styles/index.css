@@ -99,6 +99,12 @@ h1, h2 {
     width: 90px;
     cursor: pointer;
 }
+#play-button:hover{
+    border-radius: 25px;
+    color: white;
+
+
+}
 
 .more-info {
     background: rgba(255, 255, 255, 0.3);
@@ -107,6 +113,13 @@ h1, h2 {
     display: flex;
     width: 150px;
     margin-left: 10px;
+}
+.more-info:hover{
+    border-radius: 50%;
+    width: 200px;
+    cursor: pointer;
+
+
 }
 
 #play-button img, .more-info img {
@@ -143,6 +156,11 @@ h1, h2 {
 .tiles img {
     width: 100%;
     border-radius: 5px;
+}
+.tiles:hover{
+    cursor: pointer;
+    width: 25%;
+    height: 50%;
 }
 
 #search-container {
