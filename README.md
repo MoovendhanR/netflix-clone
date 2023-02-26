@@ -3,7 +3,7 @@
 
 check the mini netflix-clone [here](https://netflix-clone-virid-two.vercel.app/)
 
-#Features
+# Features
 <br/>
 1.Checkout Landing page of Netflix.
 <br/>
@@ -13,7 +13,7 @@ check the mini netflix-clone [here](https://netflix-clone-virid-two.vercel.app/)
 <br/>
 4.Browse Top 10 movies of all time.
 
-#Some of Screenshots
+# Some of Screenshots
 
 ![Screenshot (537)](https://user-images.githubusercontent.com/87975437/213929585-3411ecb2-a684-4b03-a8c6-95885677461d.png)
 ![Screenshot (538)](https://user-images.githubusercontent.com/87975437/213929586-0a2b2088-aa32-40f0-a666-c6627c89e97a.png)
